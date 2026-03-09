@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
- 
+@theme {
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondery: "Montserrat", sans-serif;
+
+    --color-primary: #406fb8;
+    --color-secondery: #fafbfd;
+
+    --spacing-unit: 1rem;
+}
