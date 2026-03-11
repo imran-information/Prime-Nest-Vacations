@@ -25,6 +25,10 @@ const LuxuryVacation = () => {
                         From modern interiors to serene lakeside views, every home is built to make your stay exceptional.
                     </p>
 
+                    <p className="mt-4 text-gray-200 text-lg">
+                        Whether it’s a family reunion, a friends’ weekend, or a peaceful retreat, our properties offer the perfect combination of privacy, style, and fun.
+                    </p>
+
                     <button className="mt-8 bg-white hover:bg-primary text-primary hover:text-white border hover:border px-6 py-3 rounded-lg font-semibold transition">
                         Browse Available Homes
                     </button>

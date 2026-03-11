@@ -62,7 +62,7 @@ const ExploreRentals = () => {
                 >
                     {rentals.map((rental, index) => (
                         <SwiperSlide key={index}>
-                            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
+                            <div className="bg-white rounded-2xl overflow-hidden transition">
 
                                 <img
                                     src={rental.image}
