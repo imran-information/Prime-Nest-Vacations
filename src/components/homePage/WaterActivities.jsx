@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../button/Button";
 
-const LocationSection = () => {
+const WaterActivities = () => {
     return (
         <section className="py-20 bg-gray-50">
             <div className=" lg:px-0 px-6 flex flex-col lg:flex-row items-center">
@@ -60,4 +60,4 @@ const LocationSection = () => {
     );
 };
 
-export default LocationSection;
+export default WaterActivities;

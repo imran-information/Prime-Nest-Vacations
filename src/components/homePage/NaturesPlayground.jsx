@@ -38,13 +38,13 @@ const NaturesPlayground = () => {
                 {/* Activities Grid */}
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {activities.map((activity, index) => (
-                        <div key={index} className="bg-gray-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                        <div key={index} className="bg-gray-50 rounded-xl shadow-md overflow-hidden hover:shadow-xl transition p-6">
                             <img
                                 src={activity.image}
                                 alt={activity.name}
-                                className="w-full h-48 object-cover"
+                                className="w-full h-48 object-cover rounded-xl"
                             />
-                            <div className="p-6">
+                            <div className="pt-5">
                                 <h3 className="text-xl font-semibold text-gray-900">
                                     {activity.name}
                                 </h3>

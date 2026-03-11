@@ -3,6 +3,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import Button from "../button/Button";
 
 const rentals = [
     {
@@ -74,10 +75,9 @@ const ExploreRentals = () => {
                                     <h3 className="text-xl font-semibold text-gray-800 font-secondery">
                                         {rental.name}
                                     </h3>
-
-                                    <button className="mt-4 bg-primary hover:bg-orange-600 text-white px-5 py-2 rounded-lg transition ">
-                                        View Community Rentals
-                                    </button>
+                                    <div className="mt-6">
+                                        <Button >View Community Rentals</Button>
+                                    </div>
                                 </div>
 
                             </div>
