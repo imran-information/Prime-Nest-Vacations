@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
+import WaterfrontLiving from "../pages/WaterfrontLiving";
 
 const Router = () => {
     return (
@@ -8,12 +9,9 @@ const Router = () => {
             {/* Main layout */}
             <Route path="/" element={<MainLayout />} >
                 <Route index element={<Home />} />
-                {/* <Route path="/meals" element={<Meals />} />
-                <Route path="/food-safety" element={<FoodSafety />} />
-                <Route path="/social-impact" element={<SocialImpact />} />
-                <Route path="/cooking-challenge" element={<CookingChallenge />} />
-                <Route path="/about" element={<About />} /> */}
+                <Route path="/waterfront-living" element={<WaterfrontLiving />} />
             </Route>
+
             {/* SignIn page */}
             {/* <Route path="/login" element={<Login />} /> */}
             {/* SignUp page  */}

@@ -1,10 +1,17 @@
-import React from 'react';
+// src/pages/WaterfrontLiving.jsx
+import React from "react";
+import FeaturesSection from "../components/WaterfrontLiving/FeaturesSection";
+import GallerySection from "../components/WaterfrontLiving/GallerySection";
+import { HeroSection } from "../components/WaterfrontLiving/HeroSection";
 
 const WaterfrontLiving = () => {
     return (
-        <div>
-            <h1>WaterfrontLiving</h1>
-        </div>
+        <>
+            <HeroSection />
+            <FeaturesSection />
+            <GallerySection />
+
+        </>
     );
 };
 
