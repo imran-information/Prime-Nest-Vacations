@@ -3,12 +3,12 @@ import Button from "../button/Button";
 
 const WaterActivities = () => {
     return (
-        <section className="py-20 bg-gray-50">
+        <section className=" bg-gray-50">
             <div className=" lg:px-0 px-6 flex flex-col lg:flex-row items-center">
                 {/* Left Image */}
                 <div className="lg:w-1/2">
                     <img
-                        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+                        src="https://images.unsplash.com/photo-1483314907760-43f124d42afd?q=80&w=1138&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Possum Kingdom Lake"
                         className="w-full h-[600px] object-cover"
                     />
@@ -35,7 +35,7 @@ const WaterActivities = () => {
                 {/* Right Image */}
                 <div className="lg:w-1/2">
                     <img
-                        src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+                        src="https://images.unsplash.com/photo-1606733894347-7cb201dc810b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt="Outdoor Activities"
                         className="w-full h-[600px] object-cover"
                     />

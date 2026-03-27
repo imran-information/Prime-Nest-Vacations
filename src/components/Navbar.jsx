@@ -4,8 +4,7 @@ import Button from "./button/Button";
 const Navbar = () => {
     // A reusable function for navlink styling
     const navLinkClasses = ({ isActive }) =>
-        `px-5 py-2 rounded-xl ${isActive ? "border border-white text-white" : "text-white"
-        }`;
+        `px-5 py-2 rounded-xl ${isActive ? "border border-white text-white" : "text-white"}`;
 
     return (
         <nav className="fixed top-0 z-60 py-1 px-20 w-full backdrop-blur-xs">

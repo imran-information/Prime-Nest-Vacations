@@ -27,12 +27,7 @@ const FiveStarSection = () => {
                         Our vacation homes are designed to provide a luxurious and relaxing
                         experience. Spacious interiors, modern amenities, and stunning lake
                         views make every stay unforgettable.
-                    </p>
-
-                    <p className="mt-4 text-gray-200">
-                        Whether you're planning a weekend getaway or a family vacation,
-                        our homes provide the comfort and elegance you deserve.
-                    </p>
+                    </p> 
                     <div className="mt-6">
                         <Button>See All Rentals</Button>
                     </div>

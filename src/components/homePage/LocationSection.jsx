@@ -3,7 +3,7 @@ import Button from "../button/Button";
 
 const LocationSection = () => {
     return (
-        <section className="py-20 bg-gray-50">
+        <section className="bg-gray-50">
             <div className=" lg:px-0 px-6 flex flex-col lg:flex-row items-center">
                 {/* Left Image */}
                 <div className="lg:w-1/2">
