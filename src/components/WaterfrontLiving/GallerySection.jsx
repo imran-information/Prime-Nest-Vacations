@@ -19,23 +19,25 @@ const GallerySection = () => {
 
     return (
         <section className="container mx-auto px-4 my-20">
-            <div className="max-w-6/12 mx-auto px-6 pb-10 flex justify-center text-center items-center gap-10 text-white">
+            <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-0 pb-10 flex flex-col justify-center items-center text-center gap-6 text-white">
+
                 {/* Text */}
-                <div className="">
-                    <h3 className="text-sm uppercase text-black">
+                <div className="mt-0 sm:mt-10">
+                    <h3 className="text-sm sm:text-base uppercase text-black tracking-wide">
                         5-Star Accommodations
                     </h3>
 
-                    <h2 className="text-4xl font-bold mt-2 text-primary">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2 text-primary">
                         One of a Kind Experience
                     </h2>
 
-                    <p className="mt-4 text-black">
+                    <p className="mt-4 text-black text-base sm:text-lg">
                         Our vacation homes are designed to provide a luxurious and relaxing
                         experience. Spacious interiors, modern amenities, and stunning lake
                         views make every stay unforgettable.
                     </p>
                 </div>
+
             </div>
 
             {/* GRID */}

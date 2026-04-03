@@ -2,6 +2,8 @@ import { Route, Routes } from "react-router";
 import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import WaterfrontLiving from "../pages/WaterfrontLiving";
+import OurTeam from "../pages/OurTeam";
+import ConnectWithUs from "../pages/ConnectWithUs";
 
 const Router = () => {
     return (
@@ -10,6 +12,8 @@ const Router = () => {
             <Route path="/" element={<MainLayout />} >
                 <Route index element={<Home />} />
                 <Route path="/waterfront-living" element={<WaterfrontLiving />} />
+                <Route path="/our-team" element={<OurTeam />} />
+                <Route path="/connect" element={<ConnectWithUs />} />
             </Route>
 
             {/* SignIn page */}

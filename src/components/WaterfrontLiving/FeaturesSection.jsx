@@ -1,5 +1,6 @@
 // src/components/FeaturesSection.jsx
 import React from "react";
+import Button from "../button/Button";
 
 const features = [
     {
@@ -21,16 +22,17 @@ const features = [
 
 const FeaturesSection = () => {
     return (
-        <section className="container mx-auto my-20">
+        <section className="container mx-auto my-20 px-4 lg:px-0">
             <div className="grid md:grid-cols-3 gap-6 mb-12">
                 {features.map((feature, index) => (
                     <div
                         key={index}
                         className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition"
                     >
-                        <img className="w-full h-[300px]" src={feature.image} alt="" srcset="" />
-                        <h2 className="text-xl font-semibold mb-2">{feature.title}</h2>
+                        <img className="w-full md:h-[200px] lg:h-[300px]" src={feature.image} alt="" srcset="" />
+                        <h2 className="text-xl font-semibold mt-2 mb-2">{feature.title}</h2>
                         <p>{feature.description}</p>
+                        <Button className="mt-4" children={"Explore Views"} />
                     </div>
                 ))}
             </div>

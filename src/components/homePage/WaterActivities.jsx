@@ -3,59 +3,72 @@ import Button from "../button/Button";
 
 const WaterActivities = () => {
     return (
-        <section className=" bg-gray-50">
-            <div className=" lg:px-0 px-6 flex flex-col lg:flex-row items-center">
-                {/* Left Image */}
-                <div className="lg:w-1/2">
+        <section className="bg-gray-50">
+
+            {/* Section 1 */}
+            <div className="px-6 pt-20 lg:pt-0 lg:px-0 flex flex-col lg:flex-row items-center">
+
+                {/* Image */}
+                <div className="w-full lg:w-1/2">
                     <img
-                        src="https://images.unsplash.com/photo-1483314907760-43f124d42afd?q=80&w=1138&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1600&auto=format&fit=crop"
                         alt="Possum Kingdom Lake"
-                        className="w-full h-[600px] object-cover"
+                        className="w-full h-[300px] sm:h-[400px] lg:h-[600px] object-cover"
                     />
                 </div>
 
-                {/* Right Text */}
-                <div className="lg:w-1/2 pl-20 pr-36">
-                    <h2 className="text-4xl font-bold text-primary">The Perfect Location</h2>
-                    <p className="mt-4 text-gray-700 text-lg">
-                        Escape to the natural beauty of Possum Kingdom Lake in Texas with <span className="font-semibold">Prime Nest Vacations</span>.
-                        Explore sprawling state parks, crystal-clear waters, and endless opportunities to connect with nature.
+                {/* Text */}
+                <div className="w-full lg:w-1/2 px-0 lg:px-16 xl:px-24 py-10 lg:py-0">
+                    <h2 className="text-3xl sm:text-4xl font-bold text-primary">
+                        Where Luxury Meets Nature
+                    </h2>
+
+                    <p className="mt-4 text-gray-700 text-base sm:text-lg">
+                        Experience the perfect balance of comfort and природ beauty at Possum Kingdom Lake. With breathtaking waterfront views and serene surroundings, this is more than just a stay — it’s a lifestyle escape.
                     </p>
-                    <p className="mt-4 text-gray-700 text-lg">
-                        Enjoy hiking trails for all skill levels, marinas for water sports, and peaceful camping options. After a long day of exploring, return to the comfort and luxury of your vacation rental home.
+
+                    <p className="mt-4 text-gray-700 text-base sm:text-lg">
+                        Whether you’re seeking quiet relaxation or outdoor adventure, every moment here feels elevated and unforgettable.
                     </p>
+
                     <div className="pt-6">
-                        <Button>Explore Possum Kingdom Lake</Button>
+                        <Button>Discover Your Escape</Button>
                     </div>
                 </div>
             </div>
 
-            {/* Second Section: Text Left, Image Right */}
-            <div className=" lg:px-0 px-6 flex flex-col lg:flex-row-reverse items-center">
-                {/* Right Image */}
-                <div className="lg:w-1/2">
+            {/* Section 2 */}
+            <div className="px-6 lg:px-0 flex flex-col lg:flex-row-reverse items-center">
+
+                {/* Image */}
+                <div className="w-full lg:w-1/2">
                     <img
-                        src="https://images.unsplash.com/photo-1606733894347-7cb201dc810b?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600&auto=format&fit=crop"
                         alt="Outdoor Activities"
-                        className="w-full h-[600px] object-cover"
+                        className="w-full h-[300px] sm:h-[400px] lg:h-[600px] object-cover"
                     />
                 </div>
 
-                {/* Left Text */}
-                <div className="lg:w-1/2 pl-48 pr-28">
-                    <h2 className="text-4xl font-bold text-gray-900">Nature’s Playground</h2>
-                    <p className="mt-4 text-gray-700 text-lg">
-                        Adventure awaits for every guest! From kayaking and paddleboarding to fishing and lakeside picnics, there’s something for everyone.
-                    </p>
-                    <p className="mt-4 text-gray-700 text-lg">
-                        Discover family-friendly activities, serene spots for relaxation, and endless outdoor fun. Make every day of your vacation an unforgettable experience.
-                    </p>
-                    <div className="pt-6">
-                        <Button>Discover Outdoor Activities</Button>
+                {/* Text */}
+                <div className="w-full lg:w-1/2 px-0 lg:px-16 xl:px-24 py-10 lg:py-0">
+                    <h2 className="text-3xl sm:text-4xl font-bold text-primary">
+                        Endless Outdoor Moments
+                    </h2>
 
+                    <p className="mt-4 text-gray-700 text-base sm:text-lg">
+                        From sunrise paddles to sunset picnics, every day brings a new adventure. Enjoy kayaking, fishing, hiking, or simply soaking in the peaceful lakeside atmosphere.
+                    </p>
+
+                    <p className="mt-4 text-gray-700 text-base sm:text-lg">
+                        Perfect for families, couples, and solo travelers looking to reconnect with nature in style.
+                    </p>
+
+                    <div className="pt-6">
+                        <Button>Explore Experiences</Button>
                     </div>
                 </div>
             </div>
+
         </section>
     );
 };

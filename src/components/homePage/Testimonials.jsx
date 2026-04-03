@@ -56,7 +56,7 @@ const testimonials = [
 
 const Testimonials = () => {
     return (
-        <section className='py-20 bg-gray-100'>
+        <section className='sm:py-0 lg:py-16 bg-gray-100'>
             <div className="container mx-auto">
                 <Swiper
                     effect={'coverflow'}
