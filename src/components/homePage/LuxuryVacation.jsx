@@ -9,7 +9,7 @@ const LuxuryVacation = () => {
                 {/* Left Image */}
                 <div className="lg:w-1/2 ">
                     <img
-                        src="/src/assets/lake.jpg"
+                        src="./src/assets/lake.jpg"
                         alt="Prime Nest Luxury Home"
                         className="w-full rounded-xl object-cover"
                     />
